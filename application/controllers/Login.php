@@ -1,15 +1,17 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-class Jwtdemo extends CI_Controller {
+class Login extends CI_Controller {
 
 	function __construct() {
         parent::__construct();
+        
 
     }
 
 	public function index(){
-
-		echo "Helllo One Two";
+		$this->load->view("common/header");
+		$this->load->view("login");
+		$this->load->view("common/footer");
 	}
 
 
