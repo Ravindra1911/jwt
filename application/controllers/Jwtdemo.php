@@ -9,7 +9,7 @@ class Jwtdemo extends CI_Controller {
 
 	public function index(){
 
-		echo "Helllo One1";
+		echo "Helllo One Two";
 	}
 
 
